@@ -24,6 +24,6 @@ stages:
       displayName: Build an image
       inputs:
         command: build
-        dockerfile: '$(Build.SourcesDirectory)/examples/basic-multi-tenancy/Dockerfile'
+        dockerfile: '$(Build.SourcesDirectory)/tree/master/examples/basic-multi-tenancy/Dockerfile'
         tags: |
           $(tag)
